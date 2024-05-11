@@ -77,14 +77,14 @@ whatsapp:
 #  port: 5432
 #  time_zone: Asia/Kolkata
 
-#database:
-#  type: sqlite
-#  path: ./gobot.sqlite.db
-
 database:
-  type: mysql
-  host: localhost
-  port: 3306
-  user: admin
-  password: password
-  dbname: gobot
+  type: sqlite
+  path: ./gobot.sqlite.db
+
+#database:
+#  type: mysql
+#  host: localhost
+#  port: 3306
+#  user: admin
+#  password: password
+#  dbname: gobot
