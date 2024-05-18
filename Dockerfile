@@ -12,4 +12,5 @@ FROM alpine:3.19
 RUN apk --no-cache add tzdata libwebp-tools ffmpeg imagemagick
 WORKDIR /go/src/watgbridge
 COPY --from=build /go/src/watgbridge/watgbridge .
+COPY ./config.yaml .
 CMD ["./watgbridge"]
