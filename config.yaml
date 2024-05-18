@@ -68,18 +68,18 @@ whatsapp:
 #Uncomment any on of these sections
 #Using the sqlite database will be easiest as it does not require any hosted database server and stores data in a single file on your device
 
-#database:
-#  type: postgres
-#  host: localhost
-#  user: admin
-#  password: password
-#  dbname: gobot
-#  port: 5432
-#  time_zone: Asia/Kolkata
-
 database:
-  type: sqlite
-  path: ./gobot.sqlite.db
+  type: postgres
+  host: cb5ajfjosdpmil.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com
+  user: us81kqtvv7ipe
+  password: pf8ce1e2e0911a0eadaf7f285755c3cd8d04ede5c349e7e31333597881ea1048d
+  dbname: drrhb2bcahr1h
+  port: 5432
+  time_zone: Asia/Kolkata
+
+#database:
+#  type: sqlite
+#  path: ./gobot.sqlite.db
 
 #database:
 #  type: mysql
