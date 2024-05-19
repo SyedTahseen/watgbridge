@@ -70,10 +70,10 @@ whatsapp:
 
 database:
   type: postgres
-  host: ep-raspy-mountain-a2x8cnlt.eu-central-1.pg.koyeb.app
+  host: ep-blue-shape-a2knnwuv.eu-central-1.pg.koyeb.app
   user: tahseen
-  password: hzT69Gvxymoi
-  dbname: watgbridge
+  password: KZw15DIzACLl
+  dbname: koyebdb
   port: 5432
   ssl: require
   time_zone: Asia/Kolkata
