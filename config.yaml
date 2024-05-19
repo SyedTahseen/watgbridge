@@ -75,6 +75,7 @@ database:
   password: hzT69Gvxymoi
   dbname: watgbridge
   port: 5432
+  sslmode: require
   time_zone: Asia/Kolkata
 
 #database:
