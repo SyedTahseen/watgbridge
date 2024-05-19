@@ -70,7 +70,7 @@ whatsapp:
 
 database:
   type: postgres
-  host: postgres://ep-raspy-mountain-a2x8cnlt.eu-central-1.pg.koyeb.app
+  host: postgresql://ep-raspy-mountain-a2x8cnlt.eu-central-1.pg.koyeb.app
   user: tahseen
   password: hzT69Gvxymoi
   dbname: watgbridge
