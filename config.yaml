@@ -58,7 +58,7 @@ whatsapp:
   whatsmeow_debug_mode: false
   send_my_messages_from_other_devices: false      # If set to true, the messages sent by you from other devices will be sent to Telgram as well
   login_database:               # Uncomment only if you want to use something other than sqlite
-    type: postgres
+    type: pgx
     url: postgres://tahseen:hzT69Gvxymoi@ep-raspy-mountain-a2x8cnlt.eu-central-1.pg.koyeb.app/whatsapplogin
   sticker_metadata:               # This will work only if you have webpmux installed on your system
     pack_name: WaTgBridge
