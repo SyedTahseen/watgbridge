@@ -59,7 +59,7 @@ whatsapp:
   send_my_messages_from_other_devices: false      # If set to true, the messages sent by you from other devices will be sent to Telgram as well
   login_database:               # Uncomment only if you want to use something other than sqlite
     type: postgres
-    url: postgresql://gobot_owner:UpscT7QGS3it@ep-purple-bar-a50djytm.us-east-2.aws.neon.tech/gobot?sslmode=require
+    url: postgres://koyeb-adm:TaCsuO1xD0XW@ep-raspy-mountain-a2x8cnlt.eu-central-1.pg.koyeb.app/koyebdb
   sticker_metadata:               # This will work only if you have webpmux installed on your system
     pack_name: WaTgBridge
     author_name: WaTgBridge
@@ -70,10 +70,10 @@ whatsapp:
 
 database:
   type: postgres
-  host: cb5ajfjosdpmil.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com
-  user: us81kqtvv7ipe
-  password: pf8ce1e2e0911a0eadaf7f285755c3cd8d04ede5c349e7e31333597881ea1048d
-  dbname: drrhb2bcahr1h
+  host: ep-raspy-mountain-a2x8cnlt.eu-central-1.pg.koyeb.app
+  user: koyeb-adm
+  password: TaCsuO1xD0XW
+  dbname: koyebdb
   port: 5432
   time_zone: Asia/Kolkata
 
