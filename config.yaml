@@ -57,9 +57,9 @@ whatsapp:
   send_revoked_message_updates: false
   whatsmeow_debug_mode: false
   send_my_messages_from_other_devices: false      # If set to true, the messages sent by you from other devices will be sent to Telgram as well
-  login_database:               # Uncomment only if you want to use something other than sqlite
-    type: pgx
-    url: postgres://tahseen:KZw15DIzACLl@ep-blue-shape-a2knnwuv.eu-central-1.pg.koyeb.app/wtplogin
+  #login_database:               # Uncomment only if you want to use something other than sqlite
+  #  type: pgx
+  #  url: postgres://tahseen:KZw15DIzACLl@ep-blue-shape-a2knnwuv.eu-central-1.pg.koyeb.app/wtplogin
   sticker_metadata:               # This will work only if you have webpmux installed on your system
     pack_name: WaTgBridge
     author_name: WaTgBridge
@@ -68,19 +68,19 @@ whatsapp:
 #Uncomment any on of these sections
 #Using the sqlite database will be easiest as it does not require any hosted database server and stores data in a single file on your device
 
-database:
-  type: postgres
-  host: cat670aihdrkt1.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com
-  user: u43r17cp2ig02u
-  password: pbd155c3921b8bfdeec3dbdfe49ca8a7577d29dc279a19863b5e95a670d1e04a4
-  dbname: d16co9rc0jc6up
-  port: 5432
-  ssl: require
-  time_zone: Asia/Kolkata
-
 #database:
-#  type: sqlite
-#  path: ./gobot.sqlite.db
+#  type: postgres
+#  host: cat670aihdrkt1.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com
+#  user: u43r17cp2ig02u
+#  password: pbd155c3921b8bfdeec3dbdfe49ca8a7577d29dc279a19863b5e95a670d1e04a4
+#  dbname: d16co9rc0jc6up
+#  port: 5432
+#  ssl: require
+#  time_zone: Asia/Kolkata
+
+database:
+  type: sqlite
+  path: ./gobot.sqlite.db
 
 #database:
 #  type: mysql
